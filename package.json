@@ -1,0 +1,24 @@
+{
+  "name": "bookself-app-back-end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/server.js",
+    "start-dev": "nodemon ./src/server.js",
+    "lint": "eslint ./src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint-config-dicodingacademy": "^0.9.4",
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^21.3.12",
+    "eslint": "^9.17.0",
+    "nanoid": "^3.3.8"
+  }
+}
